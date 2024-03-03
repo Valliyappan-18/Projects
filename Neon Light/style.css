@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Pacifico", cursive;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a{
+  color: rgb(57, 56, 56);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3em;
+  transition: 0.5s;
+  animation: neonLight 2s ease-in 0.4s infinite;
+}
+
+h1:hover{
+    color: rgb(194, 194, 194);
+    text-shadow: 0 0 5px #f1ff75, 0 0 25px #f1ff2a, 0 0 50px #f8ff32; 
+}
+
+@keyframes neonLight {
+    from{
+        color:rgb(57, 56, 56) ;
+    }
+    to{
+        color: rgb(194, 194, 194);
+        text-shadow: 0 0 5px #05a3c6, 0 0 25px #10a7c2, 0 0 50px #1df7ff
+    }
+}
