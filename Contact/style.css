@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    color: #fffefe;
+    font-family:"Madimi One", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    background-color:rgb(0, 0, 0);
+    font-weight: 900;
+    cursor: pointer;
+    outline: 2px solid #cfcbcb;
+}
+
+h1:hover{
+    color: rgb(14, 164, 228);
+    outline: 2px solid #131212;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.box-1{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+.box-2{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+    padding: 25px;
+    border: 4px solid rgb(253, 254, 255);
+    box-shadow: 15px 15px 15px rgba(1, 1, 1, 0.7);
+}
+input{
+    padding: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    background:none;
+    color: #020202;
+    border-bottom: 1px solid rgb(14, 164, 228);
+}
+
+input::placeholder{
+    color:rgb(14, 164, 228);
+    font-weight: 900;
+    font-family:"Madimi One", sans-serif
+}
+
+.container textarea{
+    color: rgb(247, 253, 255);
+    padding: 20px;
+    outline: none;
+    background-color: #323232;
+    border: 1px solid rgb(255, 255, 255);
+    font-family:"Madimi One", sans-serif;
+    border-radius: 20px 0 20px 0;
+    letter-spacing: 1.2px;
+}
+
+.container textarea::placeholder{
+    color: rgb(14, 164, 228);
+}
+
+.container button{
+    outline: none;
+    border: 1px solid rgb(14, 164, 228);
+    background-color: #323232;
+    border-radius: 20px;
+    color: #fffefe;
+    height: 40px;
+    width: 250px;
+    letter-spacing: 1.2px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container button:hover{
+    box-shadow: 2px 2px 5px rgba(14, 164, 228, 0.7);
+}
+

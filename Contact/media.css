@@ -1,0 +1,84 @@
+@media (min-width: 10em) and (max-width: 45em) {
+    /* … */
+    body{
+        background-color: #fffefe;
+        height: 100vh;
+        width: 100%;
+    }
+    h1{
+        background-color: #020202;
+        font-size: 1.5em;
+    }
+    .boxs{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .box-1 img{
+        width: 50%;
+        height: 250px;
+    }
+    .box-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .container{
+        width: 350px;
+        gap: 10px;
+        padding: 18px;
+        background: none;
+        position: absolute;
+        top : 0;
+        left: 40%;
+    }
+    .input{
+        padding: 5px;
+        letter-spacing: 0.7px;
+        font: 700;
+    }
+    input::placeholder{
+        font-weight: 400;
+    }
+    .container textarea{
+        padding: 10px;
+        height: 100px;
+        width: 280px;
+    }
+    .container button{
+        height: 40px;
+        width: 240px;
+    }
+  }
+
+  @media (min-width: 45.1em) and (max-width: 78em){
+        .boxs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .box-1{
+            padding: 25px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .box-1 img{
+            height: 550px;
+            width: 500px;
+        }
+        .box-2{
+            position: relative;
+        }
+        .container{
+            position: absolute;
+            
+        }
+  }

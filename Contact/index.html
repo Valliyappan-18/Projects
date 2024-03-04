@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <h1>Contact Page</h1>
+        <div class="boxs">
+        <div class="box-1">
+            <img title="contact=logo" src="/contact.avif" alt="contact-logo">
+        </div>
+        <div class="box-2">
+        <form onsubmit="sendMessage(), reset(); return false" class="container">
+            <input type="text" class="fname" placeholder="Enter First Name" required autofocus>
+            <input type="text" class="lname" placeholder="Enter Last Name" required>
+            <input type="email" class="email" placeholder="example@gmail.com" required>
+            <textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter Mesagae Here ..." required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
